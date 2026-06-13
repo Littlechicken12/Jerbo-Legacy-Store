@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "Jerbo Legacy Store",
+      "version": "0.1",
+      "ios": "3.0-7.1.2",
+      "description": "The first test application."
+    }
+  ]
+}
