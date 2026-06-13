@@ -1,160 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Jerbo Legacy Store</title>
-
-<style>
-body{
-    margin:0;
-    background:#e5e5e5;
-    font-family:Helvetica,Arial,sans-serif;
+{
+  "store_name": "Jerbo Legacy Store",
+  "apps": [
+    {
+      "name": "Terraria",
+      "developer": "Re-Logic",
+      "icon": "icons/terraria.png",
+      "download": "ipa/terraria.ipa"
+    },
+    {
+      "name": "YouTube",
+      "developer": "Google",
+      "icon": "icons/youtube.png",
+      "download": "ipa/youtube.ipa"
+    }
+  ]
 }
-
-.header{
-    background:linear-gradient(#4f9eff,#2b69c9);
-    color:white;
-    text-align:center;
-    padding:20px;
-    text-shadow:0 -1px 0 #184b95;
-    border-bottom:1px solid #184b95;
-}
-
-.header h1{
-    margin:0;
-    font-size:32px;
-}
-
-.header p{
-    margin:5px 0 0 0;
-}
-
-.container{
-    max-width:900px;
-    margin:auto;
-    padding:15px;
-}
-
-.banner{
-    background:white;
-    border-radius:12px;
-    padding:15px;
-    margin-bottom:15px;
-    box-shadow:0 1px 4px rgba(0,0,0,.2);
-}
-
-.section{
-    background:white;
-    border-radius:12px;
-    overflow:hidden;
-    box-shadow:0 1px 4px rgba(0,0,0,.2);
-}
-
-.section-title{
-    background:linear-gradient(#fafafa,#dfdfdf);
-    padding:10px;
-    font-weight:bold;
-    border-bottom:1px solid #c0c0c0;
-}
-
-.app{
-    display:flex;
-    align-items:center;
-    padding:12px;
-    border-bottom:1px solid #ececec;
-}
-
-.app:last-child{
-    border-bottom:none;
-}
-
-.app img{
-    width:57px;
-    height:57px;
-    border-radius:10px;
-    margin-right:12px;
-}
-
-.info{
-    flex:1;
-}
-
-.name{
-    font-weight:bold;
-    font-size:18px;
-}
-
-.dev{
-    color:#666;
-    font-size:13px;
-}
-
-.get{
-    background:linear-gradient(#8ddc64,#57b62e);
-    border:1px solid #469822;
-    border-radius:12px;
-    color:white;
-    padding:8px 18px;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-.footer{
-    text-align:center;
-    color:#666;
-    padding:20px;
-}
-</style>
-</head>
-
-<body>
-
-<div class="header">
-    <h1>Jerbo Legacy Store</h1>
-    <p>Keeping Legacy iOS Alive</p>
-</div>
-
-<div class="container">
-
-<div class="banner">
-    <h2>Welcome</h2>
-    <p>
-        Browse classic apps and games for
-        iOS 3.0 through iOS 7.1.2.
-    </p>
-</div>
-
-<div class="section">
-
-<div class="section-title">
-Featured Apps
-</div>
-
-<div class="app">
-    <img src="icons/terraria.png">
-    <div class="info">
-        <div class="name">Terraria</div>
-        <div class="dev">Re-Logic</div>
-    </div>
-    <a class="get" href="#">GET</a>
-</div>
-
-<div class="app">
-    <img src="icons/youtube.png">
-    <div class="info">
-        <div class="name">YouTube</div>
-        <div class="dev">Google</div>
-    </div>
-    <a class="get" href="#">GET</a>
-</div>
-
-</div>
-
-</div>
-
-<div class="footer">
-Jerbo Legacy Store v0.1
-</div>
-
-</body>
-</html>
