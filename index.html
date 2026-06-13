@@ -1,71 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <title>Jerbo Legacy Store</title>
 
 <style>
 body{
     margin:0;
+    background:#e5e5e5;
     font-family:Helvetica,Arial,sans-serif;
-    background:#d8dce2;
 }
 
 .header{
-    background:linear-gradient(#5fa9ff,#2d6dcc);
+    background:linear-gradient(#4f9eff,#2b69c9);
     color:white;
     text-align:center;
-    padding:12px;
-    border-bottom:1px solid #1d4f99;
-    text-shadow:0 -1px 0 #1d4f99;
+    padding:20px;
+    text-shadow:0 -1px 0 #184b95;
+    border-bottom:1px solid #184b95;
 }
 
 .header h1{
     margin:0;
-    font-size:28px;
+    font-size:32px;
 }
 
-.navbar{
-    background:linear-gradient(#f7f7f7,#d6d6d6);
-    border-top:1px solid white;
-    border-bottom:1px solid #999;
-    text-align:center;
-    padding:10px;
-}
-
-.navbar a{
-    color:#007aff;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:bold;
+.header p{
+    margin:5px 0 0 0;
 }
 
 .container{
-    width:95%;
     max-width:900px;
-    margin:15px auto;
+    margin:auto;
+    padding:15px;
+}
+
+.banner{
+    background:white;
+    border-radius:12px;
+    padding:15px;
+    margin-bottom:15px;
+    box-shadow:0 1px 4px rgba(0,0,0,.2);
 }
 
 .section{
     background:white;
-    border-radius:10px;
-    border:1px solid #b8b8b8;
+    border-radius:12px;
     overflow:hidden;
-    box-shadow:0 1px 3px rgba(0,0,0,.2);
+    box-shadow:0 1px 4px rgba(0,0,0,.2);
 }
 
 .section-title{
-    background:linear-gradient(#fdfdfd,#e6e6e6);
+    background:linear-gradient(#fafafa,#dfdfdf);
     padding:10px;
-    border-bottom:1px solid #b8b8b8;
     font-weight:bold;
+    border-bottom:1px solid #c0c0c0;
 }
 
 .app{
     display:flex;
     align-items:center;
     padding:12px;
-    border-bottom:1px solid #e0e0e0;
+    border-bottom:1px solid #ececec;
 }
 
 .app:last-child{
@@ -76,7 +72,7 @@ body{
     width:57px;
     height:57px;
     border-radius:10px;
-    margin-right:10px;
+    margin-right:12px;
 }
 
 .info{
@@ -84,22 +80,22 @@ body{
 }
 
 .name{
-    font-size:18px;
     font-weight:bold;
+    font-size:18px;
 }
 
-.version{
-    color:#777;
+.dev{
+    color:#666;
     font-size:13px;
 }
 
-.install{
-    background:linear-gradient(#7ecb4f,#4eaa1f);
-    border:1px solid #3b8518;
-    color:white;
-    text-decoration:none;
-    padding:8px 15px;
+.get{
+    background:linear-gradient(#8ddc64,#57b62e);
+    border:1px solid #469822;
     border-radius:12px;
+    color:white;
+    padding:8px 18px;
+    text-decoration:none;
     font-weight:bold;
 }
 
@@ -109,35 +105,47 @@ body{
     padding:20px;
 }
 </style>
-
 </head>
+
 <body>
 
 <div class="header">
     <h1>Jerbo Legacy Store</h1>
-</div>
-
-<div class="navbar">
-    <a href="#">Featured</a>
-    <a href="#">Categories</a>
-    <a href="#">Search</a>
-    <a href="#">Updates</a>
+    <p>Keeping Legacy iOS Alive</p>
 </div>
 
 <div class="container">
 
+<div class="banner">
+    <h2>Welcome</h2>
+    <p>
+        Browse classic apps and games for
+        iOS 3.0 through iOS 7.1.2.
+    </p>
+</div>
+
 <div class="section">
+
 <div class="section-title">
 Featured Apps
 </div>
 
 <div class="app">
-<img src="icons/testapp.png">
-<div class="info">
-<div class="name">Test App</div>
-<div class="version">Version 1.0</div>
+    <img src="icons/terraria.png">
+    <div class="info">
+        <div class="name">Terraria</div>
+        <div class="dev">Re-Logic</div>
+    </div>
+    <a class="get" href="#">GET</a>
 </div>
-<a class="install" href="ipa/testapp.ipa">FREE</a>
+
+<div class="app">
+    <img src="icons/youtube.png">
+    <div class="info">
+        <div class="name">YouTube</div>
+        <div class="dev">Google</div>
+    </div>
+    <a class="get" href="#">GET</a>
 </div>
 
 </div>
@@ -145,7 +153,7 @@ Featured Apps
 </div>
 
 <div class="footer">
-Jerbo Legacy Store • Compatible with iOS 3–7
+Jerbo Legacy Store v0.1
 </div>
 
 </body>
