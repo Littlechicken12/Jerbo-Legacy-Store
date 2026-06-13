@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jerbo Legacy Store</title>
 
+<style>
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin:0;
+    background:#f2f2f2;
+}
+
+.header{
+    background:linear-gradient(#4A90E2,#2F6DB5);
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.header h1{
+    margin:0;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    padding:15px;
+    margin-top:15px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+.app{
+    display:flex;
+    align-items:center;
+    margin-top:10px;
+}
+
+.app img{
+    width:64px;
+    height:64px;
+    border-radius:12px;
+    margin-right:15px;
+}
+
+.download{
+    margin-left:auto;
+    background:#007AFF;
+    color:white;
+    padding:8px 15px;
+    border-radius:8px;
+    text-decoration:none;
+}
+
+.footer{
+    text-align:center;
+    color:gray;
+    padding:20px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+    <h1>Jerbo Legacy Store</h1>
+    <p>Apps clásicas para iOS 3 - iOS 7</p>
+</div>
+
+<div class="container">
+
+<div class="card">
+    <h2>Bienvenido</h2>
+    <p>Jerbo Legacy Store es una tienda para dispositivos Legacy iOS.</p>
+</div>
+
+<div class="card">
+    <h2>Aplicaciones</h2>
+
+    <div class="app">
+        <img src="icons/testapp.png">
+        <div>
+            <b>Test App</b><br>
+            Versión 1.0
+        </div>
+        <a class="download" href="ipa/testapp.ipa">
+            Descargar
+        </a>
+    </div>
+
+</div>
+
+</div>
+
+<div class="footer">
+    Jerbo Legacy Store v0.1
+</div>
+
+</body>
+</html>
