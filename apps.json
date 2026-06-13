@@ -1,10 +1,26 @@
 {
+  "store_name": "Jerbo Legacy Store",
+  "store_version": "0.1",
   "apps": [
     {
-      "name": "Jerbo Legacy Store",
-      "version": "0.1",
-      "ios": "3.0-7.1.2",
-      "description": "The first test application."
+      "id": "terraria",
+      "name": "Terraria",
+      "version": "1.x",
+      "developer": "Re-Logic",
+      "min_ios": "4.3",
+      "max_ios": "7.1.2",
+      "icon": "icons/terraria.png",
+      "description": "Sandbox adventure game."
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "version": "legacy",
+      "developer": "Google",
+      "min_ios": "5.0",
+      "max_ios": "7.1.2",
+      "icon": "icons/youtube.png",
+      "description": "Video streaming application."
     }
   ]
 }
