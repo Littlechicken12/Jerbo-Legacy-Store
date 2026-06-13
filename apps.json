@@ -1,26 +1,17 @@
 {
   "store_name": "Jerbo Legacy Store",
-  "store_version": "0.1",
   "apps": [
     {
-      "id": "terraria",
       "name": "Terraria",
-      "version": "1.x",
       "developer": "Re-Logic",
-      "min_ios": "4.3",
-      "max_ios": "7.1.2",
       "icon": "icons/terraria.png",
-      "description": "Sandbox adventure game."
+      "download": "ipa/terraria.ipa"
     },
     {
-      "id": "youtube",
       "name": "YouTube",
-      "version": "legacy",
       "developer": "Google",
-      "min_ios": "5.0",
-      "max_ios": "7.1.2",
       "icon": "icons/youtube.png",
-      "description": "Video streaming application."
+      "download": "ipa/youtube.ipa"
     }
   ]
 }
